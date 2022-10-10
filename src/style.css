@@ -1,0 +1,50 @@
+* {
+   padding: 0;
+   margin: 0;
+}
+
+@media screen and (max-width: 370px) {
+   body {
+      color: #FFFFFF;
+      background-color: #000000;
+      font-family: 'Ubuntu Mono', monospace;
+      font-weight: 500;
+      font-size: 12px;
+   }
+   #input {
+      width: 100%;
+      display: inline-flex;
+      margin-top: 3px;
+   }
+   #input label {
+      width: 5%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      user-select: none;
+      font-size: 14px;
+   }
+   #input label:hover {
+      color: #38FFB9;
+   }
+   #input input {
+      width: 95%;
+      display: flex;
+      justify-content: center;
+      font-family: inherit;
+      font-weight: inherit;
+      font-size: inherit;
+      border: none;
+      outline: none;
+      color: inherit;
+      background-color: inherit;
+      text-decoration: none;
+   }
+   #input input:focus {
+      caret-color: #38FFB9;
+   }
+   #response {
+      line-height: 1.25;
+      font-size: inherit;
+   }
+}
